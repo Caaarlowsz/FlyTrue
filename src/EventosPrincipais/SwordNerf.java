@@ -11,7 +11,6 @@ import org.bukkit.potion.PotionEffectType;
 public class SwordNerf
   implements Listener
 {
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	  public void NerfsDanos(EntityDamageByEntityEvent event)
 	  {

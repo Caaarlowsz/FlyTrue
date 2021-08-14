@@ -10,7 +10,6 @@ import org.bukkit.inventory.PlayerInventory;
 
 public class ItemQuebrar implements Listener {
 	
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void Quebrar(PlayerMoveEvent e) {
 		Player p = e.getPlayer();

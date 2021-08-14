@@ -10,7 +10,6 @@ public class Tpall
   implements CommandExecutor
 {
   
-  @SuppressWarnings("deprecation")
 public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args)
   {
     Player p = (Player)sender;

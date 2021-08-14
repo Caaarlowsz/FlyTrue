@@ -13,7 +13,6 @@ import org.bukkit.event.player.PlayerInteractEvent;
 public class Thor
   implements Listener
 {
-  @SuppressWarnings("deprecation")
 @EventHandler
   public void Interagir(PlayerInteractEvent e)
   {

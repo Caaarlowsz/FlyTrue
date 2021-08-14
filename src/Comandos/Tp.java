@@ -13,7 +13,6 @@ public class Tp
 {
   public String[] aliases = { "tp" };
   
-  @SuppressWarnings("deprecation")
 public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args)
   {
     if (!(sender instanceof Player))

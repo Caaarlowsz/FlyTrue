@@ -30,7 +30,6 @@ public class Admin implements CommandExecutor, Listener {
 	public static HashMap<String, ItemStack[]> savearmor = new HashMap<String, ItemStack[]>();
 	
 	
-	@SuppressWarnings("deprecation")
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		if (!(sender instanceof Player)) {
@@ -213,7 +212,6 @@ public class Admin implements CommandExecutor, Listener {
 			}, 175);
    }
   }
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void TrocaRapida(PlayerInteractEvent e) {
 		Player p = e.getPlayer();

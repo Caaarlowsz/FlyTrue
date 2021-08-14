@@ -15,7 +15,6 @@ import org.bukkit.event.Listener;
 public class Arena
   implements CommandExecutor, Listener
 {
-  @SuppressWarnings("deprecation")
 public boolean onCommand(CommandSender sender, Command cmd, String arg2, String[] args)
   {
     Player p = (Player)sender;

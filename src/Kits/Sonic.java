@@ -165,7 +165,7 @@ public class Sonic implements Listener
         public void run()
         {
           cooldownm.remove(p);         
-          sonic.remove(p);
+          sonic.remove(p.getName());
         }
       }, 700L);
     }

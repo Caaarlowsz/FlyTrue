@@ -9,7 +9,6 @@ import org.bukkit.event.Listener;
 
 public class StaffChat implements Listener, CommandExecutor {
 	
-	@SuppressWarnings("deprecation")
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		if (!(sender instanceof Player)) {

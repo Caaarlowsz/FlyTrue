@@ -12,7 +12,6 @@ import Utils.KitAPI;
 
 public class Stomper implements Listener {
 	
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void Pulou(EntityDamageEvent e) {
 		if (e.getEntity() instanceof Player) {			

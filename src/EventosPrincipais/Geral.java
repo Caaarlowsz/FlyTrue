@@ -41,7 +41,6 @@ public class Geral implements Listener {
 			
 		}
 	}
-	  @SuppressWarnings("deprecation")
 	public void coisaa(PlayerLoginEvent e)
 	  {
 	    Player p = e.getPlayer();

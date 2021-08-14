@@ -27,7 +27,6 @@ public class Report
     this.plugin = plugin;
   }
   
-  @SuppressWarnings("deprecation")
 public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args)
   {
     final Player p = (Player)sender;

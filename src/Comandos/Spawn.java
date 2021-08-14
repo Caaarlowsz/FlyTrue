@@ -30,7 +30,6 @@ public class Spawn extends WarpsAPI implements CommandExecutor {
 	public static ItemStack loja;
 	public static ItemMeta lojameta;
 
-	@SuppressWarnings("deprecation")
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		if (!(sender instanceof Player)) {

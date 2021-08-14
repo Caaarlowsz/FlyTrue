@@ -161,7 +161,7 @@ public class Deshfire implements Listener
         public void run()
         {
           cooldownm.remove(p);         
-          Deshfire.remove(p);
+          Deshfire.remove(p.getName());
         }
       }, 700L);
     }

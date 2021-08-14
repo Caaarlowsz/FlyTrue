@@ -33,7 +33,6 @@ public class TesteClick
   public static ArrayList<String> click = new ArrayList<>();
   public static ArrayList<String> jaesta = new ArrayList<>();
   
-  @SuppressWarnings("deprecation")
 public boolean onCommand(CommandSender sender, Command cmd, String CommandLabel, String[] args)
   {
     final Player p = (Player)sender;

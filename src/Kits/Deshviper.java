@@ -163,7 +163,7 @@ public class Deshviper implements Listener
         public void run()
         {
           cooldownm.remove(p);         
-          viper.remove(p);
+          viper.remove(p.getName());
         }
       }, 700L);
     }

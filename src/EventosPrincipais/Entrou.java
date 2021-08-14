@@ -31,7 +31,6 @@ public class Entrou implements Listener {
 	public static ItemStack loja;
 	public static ItemMeta lojameta;
 	
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	  public void Entrar(PlayerJoinEvent e)
 	  {

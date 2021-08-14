@@ -19,7 +19,6 @@ public class Turtle implements Listener {
 		}
 	}
 	
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void DeuDano(EntityDamageByEntityEvent e) {
 		if (e.getEntity() instanceof Player && e.getDamager() instanceof Player) {

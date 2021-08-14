@@ -32,7 +32,6 @@ public class Sumo extends WarpsAPI implements CommandExecutor {
 		if (KitAPI.getKit(p) == "Nenhum") {
 			segundos.add(p.getDisplayName());
 			Bukkit.getScheduler().scheduleSyncDelayedTask(Main.getInstace(), new Runnable() {
-				@SuppressWarnings("deprecation")
 				@Override
 				public void run() {
 					if (segundos.contains(p.getDisplayName())) {

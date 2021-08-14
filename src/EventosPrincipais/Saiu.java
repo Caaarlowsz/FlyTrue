@@ -10,7 +10,6 @@ import Utils.KitAPI;
 
 public class Saiu implements Listener {
 	
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void Sair(PlayerQuitEvent e) {
 		Player p = e.getPlayer();

@@ -30,7 +30,6 @@ public class Parkour
 	public static ItemStack loja;
 	public static ItemMeta lojameta;
   
-  @SuppressWarnings("deprecation")
 @EventHandler
   public void ClickSlime(PlayerInteractEvent e)
   {
@@ -71,7 +70,6 @@ public class Parkour
       espada.setItemMeta(espadameta);
       p.getInventory().setItem(0, espada);
       Player[] arrayOfPlayer;
-      @SuppressWarnings("deprecation")
 	int j = (arrayOfPlayer = Bukkit.getOnlinePlayers()).length;
       for (int i = 0; i < j; i++)
       {

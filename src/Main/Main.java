@@ -117,7 +117,6 @@ public class Main extends JavaPlugin {
 	
 	public static ArrayList<String> score = new ArrayList<>();
 	
-	@SuppressWarnings("deprecation")
 	public void onEnable() {
 	    plugin = this;
 	    instance = this;
@@ -291,7 +290,6 @@ public class Main extends JavaPlugin {
 	public static void Segundos1() {
 		Bukkit.getScheduler().scheduleSyncRepeatingTask(Main.getInstace(), new Runnable() {
 			
-			@SuppressWarnings("deprecation")
 			@Override
 			public void run() {
 				for (Player s : Bukkit.getOnlinePlayers()) {
